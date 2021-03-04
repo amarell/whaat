@@ -10,7 +10,7 @@ public class Main {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-		System.out.println("Reading numbers...");
+		System.out.println("Reading the numbers...");
 		int[] numbers = MaxInteger.readNumbers("D:\\Burch University\\2. year\\Semester 2\\Data Structures\\WORKSPACE\\week1-intro\\src\\ds\\intro\\numbers.txt");
 		
 		int maxNumber = MaxInteger.findMax(numbers);
